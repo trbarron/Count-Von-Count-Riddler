@@ -48,9 +48,9 @@ def word_handler(input):
 
 #Loop until we find something that is 140 characters or larger
 tweetable = 1
-tweet_number = 1111323373377
+tweet_number = 1
 while tweetable == 1:
-    if len(word_handler(tweet_number))>=141:
+    if len(word_handler(tweet_number))>=140:
         tweetable = 0
         print(word_handler(tweet_number))
         print(len(word_handler(tweet_number)))
